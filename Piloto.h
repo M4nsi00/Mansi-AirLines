@@ -15,9 +15,9 @@ class Piloto : public Trabajador{
     public:
     // Constructor
     Piloto(string nombre,int id,int horasVuelo);
-    void trabajar() const;  //Sobreescribir la funcion
+    void trabajar();  //Sobreescribir la funcion
     //Getters
-    int getHorasVuelo() const;
+    int getHorasVuelo();
     //Setters
     void setHorasVuelo(int horas);
 };

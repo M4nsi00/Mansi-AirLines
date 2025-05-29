@@ -21,19 +21,16 @@ class Ticket{
     public:
     //Constructor
     Ticket(Cliente cliente, Ruta ruta, Avion avion, string fecha);
-    void mostrarTicket() const;
+    void mostrarTicket();
 
     //Getters
-    Cliente getCliente() const;
-    Ruta getRuta() const;
-    Avion getAvion() const;
-    string getFecha() const;
+    Cliente getCliente();
+    Ruta getRuta();
+    Avion getAvion();
+    string getFecha();
 
     //Setters
-    void setCliente(Cliente cliente);
-    void setRuta(Ruta ruta);
-    void setAvion(Avion avion);
-    void setFecha(string fecha);
+    void setFecha( );
 
 };
 #endif

@@ -4,30 +4,26 @@
 
 #ifndef AVION_H
 #define AVION_H
-#include <vector> //Para agregar a los trabajadores en forma de lista
 #include "Trabajador.h" //Para agregar a los trabajadores
 
 class Avion {
     private:
     string modelo;
     int capacidad;
-    std::vector<Trabajador> tripulacion;
+    Trabajador* tripulacion[10];
+    int numTripulantes;
 
     public:
     // Constructor
     Avion(string modelo, int capacidad);
 
-    void asignarTripulacion(Trabajador t);
+    void asignarTripulacion(Trabajador* t);
+    void mostrarTripulacion();
 
     // Getters
-    string getModelo() const;
-    int getCapacidad() const;
-    std::vector<Trabajador> getTripulacion() const;
+    string getModelo();
+    int getCapacidad();
 
-    //Setters
-    void setModelo(string modelo);
-    void setCapacidad(int capacidad);
-    void setTripulacion(std::vector<Trabajador>);
 };
 
 #endif

@@ -10,6 +10,18 @@ Ruta::Ruta(string origen, string destino) : origen(origen), destino(destino){
 Ruta::Ruta(string origen, string destino, int duracion) : origen(origen), destino(destino), duracion(duracion){
 }
 
-void Ruta::mostrarRuta() const{
-    cout << "Ruta " << origen << "->" << destino << " Con duracion" << duracion << " horas\n"; 
+void Ruta::mostrarRuta(){
+    cout << "Ruta " << origen << " -> " << destino << " con duracion " << duracion << " horas\n"; 
+}
+
+string Ruta::getOrigen(){
+    return origen;
+}
+
+string Ruta::getDestino(){
+    return destino;
+}
+
+int Ruta::getDuracion(){
+    return duracion;
 }

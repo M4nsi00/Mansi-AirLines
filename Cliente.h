@@ -18,16 +18,16 @@ class Cliente{
     Cliente(string nombre, int codigoPasaporte);
     Cliente(string nombre, int codigoPasaporte,string email); //Sobrecarga
 
-    void mostrarInformacion() const;
+    void mostrarInformacion();
 
     //Getters
-    string getNombre() const;
-    int getCodigoPasaporte() const;
-    string getEmail() const;
+    string getNombre();
+    int getCodigoPasaporte();
+    string getEmail();
 
     //Setters
-    void setNombre(string nombre);
-    void setCodigoPasaporte(int codigoPasaporte);
-    void setEmail(string email);
+    void setNombre();
+    void setCodigoPasaporte();
+    void setEmail();
 };
 #endif

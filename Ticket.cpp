@@ -8,13 +8,35 @@
 #include "Avion.h"
 #include <iostream>
 
-Ticket::Ticket(Cliente cliente, Ruta ruta, Avion avion, string fecha) : cliente(cliente), ruta(ruta), avion(avion), fecha(fecha){
+Ticket::Ticket(Cliente cliente, Ruta ruta, Avion avion, string fecha) 
+: cliente(cliente), ruta(ruta), avion(avion), fecha(fecha){
 }
 
-void Ticket::mostrarTicket() const{
+void Ticket::mostrarTicket(){
     cout << "=== TICKET ===\n";
     cout << "Fecha: " << fecha << "\n";
     cliente.mostrarInformacion();
     ruta.mostrarRuta();
-    cout << "Avión: " << avion.getModelo() << " | Capacidad: " << avion.getCapacidad() << "\n";
+    cout << "Avion: " << avion.getModelo() << " | Capacidad: " << avion.getCapacidad() << "\n";
+}
+
+void Ticket::setFecha(){
+    cout << "Ingrese fecha: " << endl;
+    cin >> fecha;
+}
+
+Cliente Ticket::getCliente(){
+    return cliente;
+}
+
+Ruta Ticket::getRuta(){
+    return ruta;
+}
+
+Avion Ticket::getAvion(){
+    return avion;
+}
+
+string Ticket::getFecha(){
+    return fecha;
 }

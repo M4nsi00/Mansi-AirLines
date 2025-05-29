@@ -6,22 +6,21 @@
 #define AZAFATA_H
 #include <iostream>
 #include "Trabajador.h"  //Para que herede de la clase "Trabajador"
-#include <vector> //Para crear la lista de idiomas que habla
 using namespace std;
+
+const int MAX_IDIOMAS = 10;
 
 class Azafata : public Trabajador {
     private:
-    vector<string> idiomasHablados;
+    string idiomasHablados[MAX_IDIOMAS];
+    int numIdiomas;
 
     public:
     //Constructor
-    Azafata(string nombre, int id, vector<string> idiomasHablados);
-    void trabajar() const;  //Funcion que se va a sobreescribir
+    Azafata(string nombre, int id, int horasTrabajo, string idiomasHablados[], int numIdiomas);
+    void trabajar();  //Funcion que se va a sobreescribir tambien se aplica polimorfismo
 
     //Getter
-    vector<string> getIdiomasHablados() const;
-
-    //Setter
-    void setIdiomasHablados(const vector<string>& idiomasHablados);
+    void getIdiomasHablados();
 };
 #endif

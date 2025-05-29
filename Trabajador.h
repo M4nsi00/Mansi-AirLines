@@ -16,15 +16,10 @@ class Trabajador {
     public:
     //Constructor
     Trabajador(string nombre,int id, int horasTrabajo);
-    void trabajar() const; //Funcion que se sobreescribe en las clases hija
+    virtual void trabajar(); //Funcion que se sobreescribe en las clases hija
     // Getters
-    string getNombre() const;
-    int getId() const;
-    int getHorasTrabajo() const;
-
-    //Setters
-    void setNombre(string nombre);
-    void setId(int id);
-    void setHorasTrabajo(int horasTrabajo);
+    string getNombre();
+    int getId();
+    int getHorasTrabajo();
 };
 #endif

@@ -4,14 +4,20 @@
 
 #include "Trabajador.h"
 //Constructor
-Trabajador::Trabajador(string nombre, int id,int horasTrabajo) : nombre(nombre), id(id), horasTrabajo(horasTrabajo){
+Trabajador::Trabajador(string nombre, int id,int horasTrabajo) 
+: nombre(nombre), id(id), horasTrabajo(horasTrabajo){
 }
-string Trabajador::getNombre() const { 
+string Trabajador::getNombre(){ 
     return nombre; 
 }
-int Trabajador::getId() const {
+int Trabajador::getId(){
     return id; 
 }
-void Trabajador::trabajar() const{
-    cout << "Trabajador " << nombre << "trabaja " << horasTrabajo << "por dia" << endl;
+
+int Trabajador::getHorasTrabajo(){
+    return horasTrabajo;
+}
+
+void Trabajador::trabajar(){
+    cout << "Trabajador " << nombre << "trabaja " << horasTrabajo << " horas por dia" << endl;
 }

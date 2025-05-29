@@ -18,17 +18,11 @@ class Ruta{
     Ruta(string origen, string destino);
     Ruta(string origen, string destino, int duracion); //Sobrecarga al agregar la variable de duracion
 
-    void mostrarRuta() const;
+    void mostrarRuta();
 
     //Getters
-    string getOrigen() const;
-    string getDestino() const;
-    int getDuracion() const;
-
-    //Setters
-    void setDuracion(int duracion);
-    void setOrigen(string origen);
-    void setDestino(string destino);
-
+    string getOrigen();
+    string getDestino();
+    int getDuracion();
 };
 #endif
