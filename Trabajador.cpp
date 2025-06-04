@@ -19,5 +19,4 @@ int Trabajador::getHorasTrabajo(){
 }
 
 void Trabajador::trabajar(){
-    cout << "Trabajador " << nombre << "trabaja " << horasTrabajo << " horas por dia" << endl;
 }

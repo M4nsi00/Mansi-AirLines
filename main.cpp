@@ -9,9 +9,11 @@
 
 using namespace std;
 
+const int MAX_TRAB = 2; //Este maximo se decide por la cantidad de trabajadores que la aerolinea 
+// quiere el usuario no decide
+
 int main() {
-    Cliente cliente1(" ", 786908);
-    cliente1.setNombre( );
+    Cliente cliente1("Sebastian Mansilla Cots", 786908);
     Cliente cliente2("Ana Gomez", 789437, "ana@gmail.com");
 
     cliente1.mostrarInformacion();
@@ -26,16 +28,23 @@ int main() {
     ruta2.mostrarRuta();
     cout << endl;
 
-    const int MAX_TRAB = 10;
-
-    Trabajador* piloto1 = new Piloto("Carlos Ruiz", 1001, 8);
-
     string idiomas[] = {"Espanol", "Ingles", "Frances"};
+    
+    Trabajador* trabajadores[MAX_TRAB];
+    Trabajador* piloto1 = new Piloto("Carlos Ruiz", 1001, 8);
     Trabajador* azafata1 = new Azafata("Laura Mendez", 201, 8, idiomas, 3);
 
-    piloto1 ->trabajar();    // aplica polimorfismo
-    azafata1 ->trabajar();   // aplica polimorfismo
-    cout << endl;
+    trabajadores[0] = piloto1;
+    trabajadores[1] = azafata1;
+
+    for(int i = 0; i < MAX_TRAB; i++){
+        trabajadores[i] ->trabajar();
+        cout << endl;
+    }
+
+    //piloto1 ->trabajar();    // aplica polimorfismo
+    //azafata1 ->trabajar();   // aplica polimorfismo
+    //cout << endl;
 
     Avion avion1("Boeing 737", 180);
 

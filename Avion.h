@@ -25,5 +25,4 @@ class Avion {
     int getCapacidad();
 
 };
-
 #endif

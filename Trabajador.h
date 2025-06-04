@@ -16,7 +16,7 @@ class Trabajador {
     public:
     //Constructor
     Trabajador(string nombre,int id, int horasTrabajo);
-    virtual void trabajar(); //Funcion que se sobreescribe en las clases hija
+    virtual void trabajar() = 0; //Funcion que se sobreescribe en las clases hija
     // Getters
     string getNombre();
     int getId();
