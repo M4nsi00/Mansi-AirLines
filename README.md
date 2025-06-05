@@ -11,7 +11,7 @@ Generar tickets (boletos) que incluyen: Cliente, Ruta, Avión y Fecha
 ## Consideraciones
 El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
 
-compilar con: "g++ empleado.h empresa.h main.cpp"
+compilar con: "g++ .\Avion.cpp .\Azafata.cpp .\Cliente.cpp .\main.cpp .\Piloto.cpp .\Ruta.cpp .\Ticket.cpp .\Trabajador.cpp -o .\mansi_airlines.exe"
 
 correr en linux: "/a.out"
 
