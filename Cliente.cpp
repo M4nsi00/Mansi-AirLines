@@ -5,6 +5,7 @@
 #include "Cliente.h"
 #include <iostream>
 
+Cliente::Cliente(){}
 Cliente::Cliente(string nombre, int codigoPasaporte) 
 : nombre(nombre), codigoPasaporte(codigoPasaporte){
 }
@@ -30,17 +31,14 @@ string Cliente::getEmail(){
     return email;
 }
 
-void Cliente::setNombre( ){
-    cout << "Ingrese nombre: " << endl;
-    cin >> nombre;
+void Cliente::setNombre(string nn){
+    nombre = nn;
 }
 
-void Cliente::setCodigoPasaporte( ){
-    cout << "Ingrese codigo del pasaporte: " << endl;
-    cin >> codigoPasaporte;
+void Cliente::setCodigoPasaporte(int cp){
+    codigoPasaporte = cp;
 }
 
-void Cliente::setEmail( ){
-    cout << "Ingrese su email: " << endl;
-    cin >> email;
+void Cliente::setEmail(string ne){
+    email = ne;
 }

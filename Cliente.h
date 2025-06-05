@@ -15,6 +15,7 @@ class Cliente{
 
     public:
     // Constructores
+    Cliente();
     Cliente(string nombre, int codigoPasaporte);
     Cliente(string nombre, int codigoPasaporte,string email); //Sobrecarga
 
@@ -26,8 +27,8 @@ class Cliente{
     string getEmail();
 
     //Setters
-    void setNombre();
-    void setCodigoPasaporte();
-    void setEmail();
+    void setNombre(string nn);
+    void setCodigoPasaporte(int cp);
+    void setEmail(string ne);
 };
 #endif

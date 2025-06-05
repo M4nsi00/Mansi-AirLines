@@ -5,8 +5,6 @@
 #include "Ruta.h"
 #include <iostream>
 
-Ruta::Ruta(string origen, string destino) : origen(origen), destino(destino){
-}
 Ruta::Ruta(string origen, string destino, int duracion) : origen(origen), destino(destino), duracion(duracion){
 }
 

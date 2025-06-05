@@ -15,7 +15,6 @@ class Ruta{
 
     public:
     // Constructores
-    Ruta(string origen, string destino);
     Ruta(string origen, string destino, int duracion); //Sobrecarga al agregar la variable de duracion
 
     void mostrarRuta();
