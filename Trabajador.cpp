@@ -17,6 +17,3 @@ int Trabajador::getId(){
 int Trabajador::getHorasTrabajo(){
     return horasTrabajo;
 }
-
-void Trabajador::trabajar(){
-}
