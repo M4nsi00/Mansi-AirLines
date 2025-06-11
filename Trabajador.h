@@ -1,6 +1,8 @@
-// Trabajador.h
-// Clase de la que heredan Azafata y Piloto
-// Aplica herencias y sobreescritura
+/*
+* Trabajador.cpp
+* Clase de la que heredan Azafata y Piloto, clase Abstracta
+* Aplica herencias, sobreescritura y polimorfismo
+*/
 
 #ifndef TRABAJADOR_H
 #define TRABAJADOR_H

@@ -9,8 +9,12 @@
 
 using namespace std;
 
-const int MAX_TRAB = 2; //Este maximo se decide por la cantidad de trabajadores que la aerolinea 
-// quiere el usuario no decide
+const int MAX_TRAB = 2; 
+/*
+*Este maximo se decide por la cantidad de trabajadores que la aerolinea 
+* quiere el usuario no decide
+*/
+
 const int MAX_CLIENTES = 10;
 
 int main() {

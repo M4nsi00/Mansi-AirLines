@@ -1,6 +1,7 @@
-// Ruta.h
-// Clase donde se pone en practica la sobrecarga
-//
+/*
+* Ruta.h
+* Clase donde se pone en practica la sobrecarga
+*/
 
 #ifndef RUTA_H
 #define RUTA_H

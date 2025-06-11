@@ -1,9 +1,11 @@
-// Trabajador.cpp
-// Clase de la que heredan Azafata y Piloto
-// Aplica herencias y sobreescritura
+/*
+* Trabajador.cpp
+* Clase de la que heredan Azafata y Piloto, clase Abstracta
+* Aplica herencias, sobreescritura y polimorfismo
+*/
 
 #include "Trabajador.h"
-//Constructor
+//Connstructor
 Trabajador::Trabajador(string nombre, int id,int horasTrabajo) 
 : nombre(nombre), id(id), horasTrabajo(horasTrabajo){
 }

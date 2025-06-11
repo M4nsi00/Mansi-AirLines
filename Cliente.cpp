@@ -1,6 +1,7 @@
-// Cliente.cpp
-// En esta clase se hara practica de sobrecarga en constructores
-//
+/*
+* Cliente.h
+* En esta clase se hara practica de sobrecarga en constructores
+*/
 
 #include "Cliente.h"
 #include <iostream>

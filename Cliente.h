@@ -1,6 +1,7 @@
-// Cliente.h
-// En esta clase se hara practica de sobrecarga en constructores
-//
+/*
+* Cliente.h
+* En esta clase se hara practica de sobrecarga en constructores
+*/
 
 #ifndef CLIENTE_H
 #define CLIENTE_H

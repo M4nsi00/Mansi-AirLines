@@ -1,6 +1,9 @@
-// Clase Piloto.h
-// Clase que hereda de "Trabajador"
-// Se pone en practica el uso de herencias y sobreescritura en la funcion trabajo()
+/* 
+* Clase Piloto.h
+* Clase que hereda de "Trabajador"
+* Se pone en practica el uso de herencias y sobreescritura en la funcion trabajo()
+* , forma parte del polimorfismo
+*/
 
 #ifndef PILOTO_H
 #define PILOTO_H

@@ -1,6 +1,7 @@
-// Avion.cpp
-// Clase en donde se agregan Trabajadores
-// 
+/* 
+* Avion
+* Clase en donde se agregan Trabajadores
+*/ 
 
 #include "Avion.h"
 #include <iostream>

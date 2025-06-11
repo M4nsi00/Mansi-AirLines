@@ -1,6 +1,7 @@
-// Ruta.cpp
-// Clase donde se pone en practica la sobrecarga
-//
+/*
+* Ruta.h
+* Clase donde se pone en practica la sobrecarga
+*/
 
 #include "Ruta.h"
 #include <iostream>

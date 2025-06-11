@@ -1,6 +1,8 @@
-// Piloto.cpp
-// Clase que hereda de "Trabajador"
-// Se pone en practica el uso de herencias y sobreescritura en la funcion trabajo()
+/*
+* Piloto.cpp
+/* Clase que hereda de "Trabajador"
+/* Se pone en practica el uso de herencias y sobreescritura en la funcion trabajo()
+*/
 
 #include "Piloto.h"
 #include <iostream>

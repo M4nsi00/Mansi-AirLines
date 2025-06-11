@@ -1,6 +1,8 @@
-// Azafata.cpp
-// Clase que hereda de "Trabajador"
-// Se pone en practica el uso de sobreescribir en la funcion trabajo()
+/*
+* Azafata.h
+* Clase que hereda de "Trabajador"
+* Se pone en practica el uso de sobreescribir en la funcion trabajo()
+*/
 
 #include "Azafata.h"
 #include <iostream>

@@ -1,6 +1,7 @@
-// Ticket.cpp
-// En esta clase se usa composicion de las clases "Ruta","Cliente" y "Avion"
-//
+/*
+* Ticket.cpp
+* En esta clase se usa composicion de las clases "Ruta","Cliente" y "Avion"
+*/
 
 #include "Ticket.h"
 #include "Cliente.h"

@@ -1,6 +1,8 @@
-// Azafata.h
-// Clase que hereda de "Trabajador"
-// Se pone en practica el uso de sobreescribir en la funcion trabajo()
+/*
+* Azafata.h
+* Clase que hereda de "Trabajador"
+* Se pone en practica el uso de sobreescribir en la funcion trabajo()
+*/
 
 #ifndef AZAFATA_H
 #define AZAFATA_H

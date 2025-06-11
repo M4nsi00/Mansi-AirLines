@@ -1,6 +1,7 @@
-// Avion
-// Clase en donde se agregan Trabajadores
-// 
+/* 
+* Avion
+* Clase en donde se agregan Trabajadores
+*/ 
 
 #ifndef AVION_H
 #define AVION_H
