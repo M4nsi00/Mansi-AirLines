@@ -4,9 +4,8 @@ Bienvenido a Mansi AirLines,este proyecto simula el funcionamiento básico de un
 ## Funcionalidad
 El programa busca realizar las siguientes cosas:
 Dar de alta nuevos clientes
-Registrar las rutas de vuelos
-Registrar aviones y asignar la tripulación
-Generar tickets (boletos) que incluyen: Cliente, Ruta, Avión y Fecha
+En el programa se ve un menú, donde se puede agregar los cleintes o modificar sus datos.
+Genera tickets (boletos) que incluyen: Cliente, Ruta, Avión y Fecha
 
 ## Consideraciones
 El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
