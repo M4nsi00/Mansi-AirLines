@@ -23,6 +23,8 @@ class Ticket{
     public:
     //Constructor
     Ticket(Cliente cliente, Ruta ruta, Avion avion, string fecha);
+
+    //Funcion que toma los datos agregados y los imprime en forma de ticket
     void mostrarTicket();
 
     //Getters

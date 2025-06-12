@@ -21,11 +21,13 @@ void Ticket::mostrarTicket(){
     cout << "Avion: " << avion.getModelo() << " | Capacidad: " << avion.getCapacidad() << "\n";
 }
 
+//Setters
 void Ticket::setFecha(){
     cout << "Ingrese fecha: " << endl;
     cin >> fecha;
 }
 
+//Getters
 Cliente Ticket::getCliente(){
     return cliente;
 }

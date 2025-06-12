@@ -21,6 +21,8 @@ int main() {
     Cliente clientes[MAX_CLIENTES];
     int numClientes = 0;
    
+    //Valores predefinidos por la aerolinea que la idea es que el usuario
+    //No tenga acceso a ellas
     Ruta ruta1("CDMX", "Nueva York",4);
     Ruta ruta2("Madrid", "Tokio", 14);
 
@@ -28,6 +30,7 @@ int main() {
     ruta2.mostrarRuta();
     cout << endl;
 
+    //Se crea un arreglo de idiomas para el objeto azafata
     string idiomas[] = {"Espanol", "Ingles", "Frances"};
     
     Trabajador* trabajadores[MAX_TRAB];
@@ -42,6 +45,7 @@ int main() {
         cout << endl;
     }
 
+    //Se crea el objeto avion y se le asigna la tripulacion
     Avion avion1("Boeing 737", 180);
 
     avion1.asignarTripulacion(piloto1);
@@ -50,6 +54,7 @@ int main() {
     string fecha = "2025-05-24";
 
 
+    //Menu para agregar o cambiar datos de clientes
     int opcion;
     do {
         cout << "\n=== Menu de Clientes ===\n";

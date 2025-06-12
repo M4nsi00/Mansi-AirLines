@@ -20,6 +20,7 @@ void Cliente::mostrarInformacion(){
     cout << "Email " << email << "\n";
 }
 
+//Getters
 string Cliente::getNombre(){
     return nombre;
 }
@@ -32,6 +33,7 @@ string Cliente::getEmail(){
     return email;
 }
 
+//Setters
 void Cliente::setNombre(string nn){
     nombre = nn;
 }

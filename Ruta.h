@@ -18,6 +18,7 @@ class Ruta{
     // Constructores
     Ruta(string origen, string destino, int duracion); //Sobrecarga al agregar la variable de duracion
 
+    // Funcion para imprimir los datos de la ruta
     void mostrarRuta();
 
     //Getters

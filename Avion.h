@@ -11,7 +11,7 @@ class Avion {
     private:
     string modelo;
     int capacidad;
-    Trabajador* tripulacion[10];
+    Trabajador* tripulacion[10]; //Se instancia un numero maximo de trabajadores
     int numTripulantes;
 
     public:

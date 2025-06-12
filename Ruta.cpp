@@ -13,6 +13,7 @@ void Ruta::mostrarRuta(){
     cout << "Ruta " << origen << " -> " << destino << " con duracion " << duracion << " horas\n"; 
 }
 
+//Getters
 string Ruta::getOrigen(){
     return origen;
 }

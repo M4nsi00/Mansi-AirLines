@@ -9,6 +9,8 @@
 Trabajador::Trabajador(string nombre, int id,int horasTrabajo) 
 : nombre(nombre), id(id), horasTrabajo(horasTrabajo){
 }
+
+//Getters
 string Trabajador::getNombre(){ 
     return nombre; 
 }
